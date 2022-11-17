@@ -1,0 +1,116 @@
+body {
+    /* background-image: linear-gradient(rgb(52, 12, 12), white); */
+    background-image: linear-gradient(rgb(43, 43, 156), rgb(181, 181, 39));
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+/* subMenu pagina 2 */
+.subMenu ul {
+    list-style-type: none;
+    padding: 0px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: blue;
+}
+
+.subMenu ul li {
+    display: inline;
+    position: relative;
+}
+
+.subMenu ul li a {
+    color: var(--cor-primaria);
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    transition: background .3s;
+}
+
+/* subMenu pagina 2 */
+.menu{
+    background-color: rgb(57, 161, 57);
+    border-radius: 15px;
+}
+.Time{
+    background-color: olive;
+    border-radius: 10px;
+}
+.menu li{
+    display: inline;
+    padding: 20px;
+}
+.menu a{
+text-decoration: none;
+color: black;
+align-items: center;
+}
+.menu{
+    text-align:center;
+}
+
+.rodape {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+.video{
+    font-size: 30px;
+    text-decoration: underline;
+    text-align: center;
+    background-color: darkcyan;
+}
+.centra{
+    text-align: center;
+}
+
+.icon {
+    height: 50px;
+    width: auto;
+}
+
+.centralizar {
+    text-align: center;
+}
+
+/* pagina 2 */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+.p-30 {
+    padding: 60px;
+}
+
+.form-flex {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+/* .tm-btn {
+    width: fit-content;
+    height: fit-content;
+} */
+
+.text-red {
+    color: red;
+}
+
+/* .mb-10 {
+    margin-bottom: 10px;
+} */ /* margem entre opções do formulário */
+
+/* pagina 2 */
+
+
+
+
+
+
+

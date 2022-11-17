@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Copa</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <div class="menu">
+    <ul>
+        <li><a class="superior" href="Copa2022.html">Lista dos Convocados</a></li>
+
+        <li><a class="superior" href="Copa2022 - 2.html">Partidas Brasil</a></li>
+    </ul>
+    </div>
+<header class="subMenu">
+    <ul>
+        <li><a href="#"></a>GRUPO A</li>
+        <li><a href="#"></a>GRUPO B</li>
+        <li><a href="#"></a>GRUPO C</li>
+        <li><a href="#"></a>GRUPO D</li>
+        <li><a href="#"></a>GRUPO E</li>
+        <li><a href="#"></a>GRUPO F</li>
+        <li><a href="#"></a>GRUPO G</li>
+        <li><a href="#"></a>GRUPO H</li>
+        <li><a href="#"></a>GRUPO I</li>
+        <li><a href="#"></a>GRUPO J</li>
+    </ul>
+
+</header>
+    <h1>Fase de Grupos</h1>
+    <h3>Datas e Horários das Partidas do Grupo G</h3>
+    <img src="brasil.webp" width="350" height="350" alt="Tabela com datas e horarios dos jogos das oitavas do grupo G">
+
+    <hr>
+    <div class="container">
+        <div class="p-20">
+            <h3>Contato <sub>(deixe seu contato e garanta sua viagem)</sub> </h3>
+
+            <form class="form-flex">
+            <label class="formulario texto" for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" onkeyup="validaNome()">
+            <div class="mb-10 text-red" id="erroNome"></div>
+
+            <label class="formulario texto" for="email">Email:</label>
+            <input type="email" name="email" id="email" onkeyup="validaEmail()">
+            <div class="mb-10 text-red" id="erroEmail"></div>
+
+            <label class="formulario texto" for="assunto">Assunto:</label><br>
+            <textarea nome="assunto" id="assunto" rows="10" cols="50" onkeyup="validaAssunto()"></textarea>
+            <div class="mb-10 text-red" id="erroAssunto"></div>
+
+            <button class="tm-btn" onclick="enviar()">Enviar</button>
+
+        </form>
+    </div>
+
+    <div class="p-30">
+        <h3>Localização</h3>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d923087.7182929453!2d51.2177501!3d25.344109000000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e45c534ffdce87f%3A0x1cfa88cf812b4032!2sCatar!5e0!3m2!1spt-PT!2sbr!4v1667918810631!5m2!1spt-PT!2sbr" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="mapa" onmouseover="mapaZoom()" onmouseout="mapaNormal()"></iframe>
+</div>
+</div>
+<hr>
+
+<footer class="centralizar p-30"> 
+
+    <div class="centralizar">
+    <a href="" target=""><img class="icon" src="img/facebook.png" alt="icon facebook"></a>
+
+    <a href="" target=""><img class="icon" src="img/instagram.png" alt="icon instagram"></a>
+
+    <a href="" target=""><img class="icon" src="img/twitter (1).png" alt="icon twitter"></a>
+    </div>
+
+    Todos os direitos reservados &copy
+
+</footer>
+<script src="./js/script.js"></script>
+</body>
+</html>
